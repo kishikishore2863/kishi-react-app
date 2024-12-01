@@ -1,5 +1,5 @@
 import React from 'react'
-import ElectricCategory from './ElectricCategory'
+import ElectricCategory from './ElectricCategory/ElectricCategory'
 
 const Home = () => {
   return (

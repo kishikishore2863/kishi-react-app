@@ -95,9 +95,9 @@ const Navbar = () => {
           {/* Left Section */}
           <div className="flex items-center gap-9">
             <div className="flex items-center gap-2">
-              <IconButton>
+              { !isLarge && <IconButton>
                 <MenuIcon />
-              </IconButton>
+              </IconButton>}
               <h1 className="logo cursor-pointer text-lg md:text-2xl text-[#000000]">
                 Kishi
               </h1>

@@ -2,7 +2,10 @@ import React from 'react'
 
 const ElectricCategoryCard = () => {
   return (
-    <div>ElectricCategoryCard</div>
+    <div>
+      <img src="" alt="" />
+     <h2 className='font-semibold  text-sm'>Laptop</h2>
+    </div>
   )
 }
 
